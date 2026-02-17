@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: manqo/jenkins-exam-app:latest # Wird von Jenkins überschrieben
+        image: manqo/jenkins-exam-app:latest
         ports:
         - containerPort: 80
